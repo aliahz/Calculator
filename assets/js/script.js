@@ -3,19 +3,17 @@
 const buttons = document.querySelectorAll('.button')
 const displayTop = document.querySelector('.displayTop')
 const displayBottom = document.querySelector('.displayBottom')
-
+const buttonsEl = document.querySelector('#buttons')
 
 
 // TITLE : event listner baraye har dokme dar safhe
-// bad az click shodan har dokme dar safhe, be nesbate shart haei ke vojood dare function calculate() run mishe
+// bad az click shodan dar safhe, agar makani ke click shode daraye class button bood, function calculate run mishe
 
-buttons.forEach(button => {
-    button.addEventListener('click', () => {
-        calulate(button)
-    })
+buttonsEl.addEventListener('click', (e) => {
+    if (e.target.classList.contains('button')) {
+        calculate()
+    }
 })
-
-
 
 
 // functions
