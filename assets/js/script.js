@@ -105,12 +105,14 @@ function evaluation(str) {
 
             return str;
         } else if (numbersAfterDecimal <= 2) {
+
             str = Number(str).toFixed(2);
-            return eval(str);
+
         }
+        return str;
     }
     // if number is not decimal
     else {
-        return eval(str);
+        return str;
     }
 }
