@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-image: url(/assets/image/back.jpg);
+    background-size: cover;
+    color: #71D4FE;
+  }
+  
+  #container {
+    width:400px;
+    margin: auto;
+  }
+  
+  #main{
+    background: #272B2C;
+    background: linear-gradient(312deg, #272B2C, #29323c); 
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 40px 45px rgb(0 0 0 / 40%);
+  }
+  
+  #display {
+    height: 200px;
+    width: 100%;
+    text-align: right;
+    padding:65px 40px 20px;
+    font-size: 40px;
+    color: #71D4FE;;
+  }
+  
+  .displayTop {
+    opacity: 0.4;
+    font-size: 25px;
+    margin-bottom: 35px;
+    overflow-wrap: break-word;
+  
+  }
+  
+  
+  #buttons{
+    padding: 30px 20px 45px;
+  }
+  
+  .scientific {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .scientific>.button{
+    color:rgb(30, 43, 46);
+    width: 60px;
+    height: 39px;
+    border-radius: 21px;
+    font-size: 21px;
+    font-weight: 600;
+    background: linear-gradient(to right, #266883, #34e8c4);
+  }
+  
+  .button {
+    background-color: #2F3336;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, .7);
+    border: 0.5px solid rgba(92, 92, 92, 0.137);
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn-0 {
+    width: 45%;
+  } 
+  
+  .button:hover {
+    background-color: rgb(30, 43, 46);
+  }
+  
+  .scientific> .button:hover{
+    box-shadow:1px 2px 1px #00bcd4;
+  }
+  
+  .scientific>.on{
+    background: linear-gradient(to right, #05a88f, #d4f516);
+    box-shadow: 1px 2px 1px #819512;
+  }
+   
+  .simple>.button:hover{
+    text-shadow: 1px 2px 40px #00BCD4, 0px 0px 40px rgba(0, 188, 212, .9), 0px 0px 40px rgba(0, 188, 212, .9), 10px 10px 40px rgba(0, 188, 212, .9);
+  }
+  
+  .button:active {
+  transform: scale(.9);
+  }
+  
+  .simple{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px 5px;
+  }
+  
+  .simple>.button{
+    text-shadow: 0px 0px 40px #71D4FE, 0px 0px 0px #71D4FE;
+    border-radius: 12px;
+  }
+  
+  
