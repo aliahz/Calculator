@@ -35,15 +35,17 @@
     text-align: right;
     padding:65px 40px 20px;
     font-size: 40px;
-    color: #71D4FE;;
+    color: #71D4FE;
+    overflow: hidden;
   }
   
   .displayTop {
     opacity: 0.4;
     font-size: 25px;
-    margin-bottom: 35px;
-    overflow-wrap: break-word;
-  
+    margin-bottom: 5px;
+    overflow: hidden;
+    word-break: break-all;
+    height: 90px;
   }
   
   
